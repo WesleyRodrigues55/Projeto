@@ -1,0 +1,165 @@
+/* NAVBAR */
+
+#nav-bar {
+    background-color: rgb(206, 206, 206);
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+#hover-nav {
+    color: black
+}
+
+#hover-nav:hover {
+    background: black;
+    color: white;
+}
+
+
+/* RESPONSIVIDADE LOGO  */
+
+@media (max-width: 700px) {
+    #imgLOGO {
+        background-size: cover;
+        width: 180px;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 700px) {
+    #imgLOGO {
+        background: 0;
+    }
+}
+
+@media (min-width: 800px) {
+    #imgLOGO {
+        width: 100%;
+    }
+}
+
+
+/* FIM NAVBAR */
+
+
+/* CONTAINER */
+
+#Coluna {
+    background-image: url("../img/ImgContato/imagemFundo.png");
+    width: 100%;
+    background-size: cover;
+}
+
+@media (max-width: 750px) {
+    #Coluna {
+        background-image: url("../img/ImgContato/imagemFundoMobile.png");
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+#conteudo {
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    #apresenta {
+        font-size: 27px;
+    }
+}
+
+#conteudo2 {
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+#iconezap {
+    padding: 10px;
+    color: white;
+}
+
+#iconezap:hover {
+    color: green;
+}
+
+#iconeface {
+    padding: 10px;
+    color: white;
+}
+
+#iconeface:hover {
+    color: rgb(22, 76, 255);
+}
+
+#iconelinke {
+    padding: 10px;
+    color: white;
+}
+
+#iconelinke:hover {
+    color: rgb(22, 76, 255);
+}
+
+#iconeemail {
+    padding: 10px;
+    color: white;
+}
+
+#iconeemail:hover {
+    color: rgb(61, 60, 60);
+}
+
+
+/* SUBIR PRO TOPO  */
+
+#subir-ao-topo {
+    background: rgba(233, 241, 183, 0.1);
+    padding: 10px;
+    width: 60px;
+    position: fixed;
+    right: 0;
+    top: 500px;
+}
+
+#subir-ao-topo a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+#subir-ao-topo:hover {
+    background: rgb(92, 92, 92);
+}
+
+
+/* HOVER DAS IMAGENS DE POSTER */
+
+img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+
+/* IMAGENS DO RODAPE RESPONSIVA */
+
+@media (max-width: 1024px) {
+    #imgRodape {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 700px) {
+    #imgRodape {
+        width: 100%;
+    }
+}

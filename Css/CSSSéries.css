@@ -1,0 +1,247 @@
+/* NAVBAR */
+
+#nav-bar {
+    background-color: rgb(206, 206, 206);
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+#hover-nav {
+    color: black
+}
+
+#hover-nav:hover {
+    background: black;
+    color: white;
+}
+
+
+/* RESPONSIVIDADE LOGO  */
+
+@media (max-width: 700px) {
+    #imgLOGO {
+        background-size: cover;
+        width: 200px;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 700px) {
+    #imgLOGO {
+        background: 0;
+    }
+}
+
+@media (min-width: 800px) {
+    #imgLOGO {
+        width: 100%;
+    }
+}
+
+
+/* FIM NAVBAR */
+
+
+/* INICIO CONTAINER */
+
+#Coluna1 {
+    margin-top: 0px;
+}
+
+#tema-filmes {
+    color: white;
+}
+
+#tema-filmes h1 {
+    padding: 15px;
+}
+
+#tema-filmes p {
+    padding: 15px;
+}
+
+
+/* TABELA FILMES */
+
+#tabela-filmes {
+    /* border: 1px solid white; */
+    text-align: left;
+    /* 1220PX POR 500PX */
+    background-image: url("../Img/ImgSeries/tabela-filmes.png");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+    #tabela-filmes {
+        border: 1px solid rgba(241, 235, 235, 0.3);
+        text-align: left;
+        /* 400PX POR 700PX */
+        background-image: url("../Img/ImgSeries/tabela-filmes-mobile.png");
+        background-size: cover;
+    }
+}
+
+#tabela-filmes ul {
+    list-style-type: none;
+    padding: 50px;
+}
+
+@media (max-width: 700px) {
+    #tabela-filmes ul {
+        list-style-type: none;
+        padding: 10px;
+    }
+}
+
+#tabela-filmes ul li {
+    padding: 5px;
+    margin: 7px;
+}
+
+@media (max-width: 700px) {
+    #tabela-filmes ul li {
+        padding: 5px;
+        margin: 0;
+    }
+}
+
+#tabela-filmes ul li a {
+    text-decoration: none;
+    color: yellow;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    #tabela-filmes ul li a {
+        text-decoration: none;
+        color: yellow;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+#tabela-filmes ul li a:hover {
+    background: white;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    #tabela-filmes ul li a:hover {
+        background: rgba(94, 92, 92, 0.5);
+        color: white;
+    }
+}
+
+
+/* COMEÇO DOS PADRÕES DAS TABELAS */
+
+#padrao-tabelas {
+    text-align: center;
+    border: 1px solid rgba(238, 232, 232, 0.2);
+    padding: 20px;
+    margin: 5px;
+    box-shadow: inset 0 0 1em rgb(141, 124, 25);
+}
+
+
+/* FONTE E COR DOS PARÁGRAFOS */
+
+#padrao-tabelas p {
+    color: white;
+    padding: 20px;
+}
+
+#botao-filmes {
+    float: left;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: black;
+}
+
+#botao-filmes:hover {
+    background-color: rgb(235, 235, 49);
+}
+
+#botao-filmes1:hover {
+    background-color: rgb(235, 235, 49);
+}
+
+
+/* MUDAR COR DO MODAL DA ABA QUE ABRE DE SINOPSE */
+
+#modal-color {
+    background: black;
+    color: white;
+}
+
+
+/* TAMANHO IAMGENS EM MOBILES E TABLETS */
+
+@media (max-width:1024px) {
+    .row img {
+        width: 280px;
+        background-size: cover;
+    }
+}
+
+@media (max-width:320px) {
+    .row img {
+        width: 220px;
+        background-size: cover;
+    }
+}
+
+
+/* HOVER DAS IMAGENS DE POSTER */
+
+img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+
+/* IMAGENS DO RODAPE RESPONSIVA */
+
+@media (max-width: 1024px) {
+    #imgRodape {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 700px) {
+    #imgRodape {
+        width: 100%;
+    }
+}
+
+
+/* SUBIR PRO TOPO  */
+
+#subir-ao-topo {
+    background: rgba(233, 241, 183, 0.1);
+    padding: 10px;
+    width: 60px;
+    position: fixed;
+    right: 0;
+    top: 500px;
+}
+
+#subir-ao-topo a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+#subir-ao-topo:hover {
+    background: rgb(92, 92, 92);
+}
